@@ -163,8 +163,8 @@ class GPTBot(irc.client.SimpleIRCClient):
     
 def main():
     server = "irc.elisa.fi"
-    channel = "#solita"
-    nickname = "solitabot"
+    channel = "#yourchannel"
+    nickname = "yournickname"
     port = 6667
     
     bot = GPTBot(channel, nickname, server, port)
